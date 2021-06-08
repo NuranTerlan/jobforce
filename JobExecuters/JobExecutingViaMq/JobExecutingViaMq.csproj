@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+      <PackageReference Include="RabbitMQ.Client" Version="6.2.1" />
+      <PackageReference Include="System.Configuration.ConfigurationManager" Version="6.0.0-preview.4.21253.7" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="BaseJobs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\..\SharedBaseAbstractions\BaseJobs\bin\Debug\net5.0\BaseJobs.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>

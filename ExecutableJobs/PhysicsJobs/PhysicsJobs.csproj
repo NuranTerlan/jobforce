@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Reference Include="BaseJobs, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+        <HintPath>..\..\SharedBaseAbstractions\BaseJobs\bin\Debug\net5.0\BaseJobs.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>
